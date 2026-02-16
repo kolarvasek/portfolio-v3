@@ -23,7 +23,7 @@ const page = () => {
         <div className="max-w-7xl mx-auto px-6 ">
           <div className="h-20 bg-gray-300/60 rounded-2xl flex items-center justify-between p-3 text-gray-700 mt-4 backdrop-blur">
             <div className="logo font-medium hidden md:flex">VK</div>
-            <ul className="flex flex-around gap-3 text-sm md:gap-8 md:text-base">
+            <ul className="flex flex-around gap-3 mx-auto text-sm md:gap-8 md:text-base">
               <li>
                 <a href="#domu">Domů</a>
               </li>
