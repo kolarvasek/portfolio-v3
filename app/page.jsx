@@ -19,11 +19,11 @@ const page = () => {
       />
 
       {/* Navbar */}
-      <nav className="fixed top-0 left-0 w-full z-50 backdrop-blur">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="h-20 bg-gray-300/60 rounded-2xl flex items-center justify-between px-8 text-gray-700 mt-4">
+      <nav className="fixed top-0 left-0 w-full z-50 ">
+        <div className="max-w-7xl mx-auto px-6 ">
+          <div className="h-20 bg-gray-300/60 rounded-2xl flex items-center justify-between p-3 text-gray-700 mt-4 backdrop-blur">
             <div className="logo font-medium hidden md:flex">VK</div>
-            <ul className="flex gap-3 text-sm md:gap-8 md:text-base">
+            <ul className="flex flex-around gap-3 text-sm md:gap-8 md:text-base">
               <li>
                 <a href="#domu">Domů</a>
               </li>
